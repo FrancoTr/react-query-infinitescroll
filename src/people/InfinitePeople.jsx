@@ -28,8 +28,8 @@ export function InfinitePeople() {
               <Person
                 key={person.name}
                 name={person.name}
-                hairColor={person.hairColor}
-                eyeColor={person.eyeColor}
+                hairColor={person.hair_color}
+                eyeColor={person.eye_color}
               />
             );
           });
